@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form class="" action="index.html" method="get">
+      <textarea name="textarea" rows="20" cols="30" readonly> xbsxbsxsu </textarea> <!-- strok 20, simbolov 30 -->
+
+
+      <br>
+      <select class="" name="transport" size="3" disabled>
+        <option value="1">Audi</option>
+        <option value="2" selected>BMW</option>
+        <option value="3">Volkswagen</option>
+        <optgroup label="flying">
+          <option value="4">Boing</option>
+        </optgroup>
+      </select>
+      <br>
+
+<!-- disabled - mozhno pisatj vezde, ne budet pokazivatjca naverhu  -->
+<!-- readonly - toljko chitatj, infa otpravljaetca naverh  -->
+
+
+      <form>
+      <label>button</label>
+      <input type="button" value="button" name="a1"> <!-- ne otpravljaet dannie v otlichii ot submit, ispoljzujut vmeste s javascript -->
+      <br>
+      <label>checkbox</label>
+      <input type="checkbox" name="b" value="1"> <!-- mozhno vibratj mnogo otvetov -->
+      <input type="checkbox" name="b" value="2"> <!-- ne vazhno raznie imena ili net -->
+      <input type="checkbox" name="b" value="3">
+      <br>
+      <label>radio</label>
+      <input type="radio" name="c" value="1">  <!-- mozhno vibratj odno znachenie -->
+      <input type="radio" name="c" value="2">  <!-- esli imena odinakovie -->
+      <input type="radio" name="c" value="3">
+      <br>
+      <input type="radio" name="d" value="8">  <!-- imja drugoe, poetomu moznho vibratj 2 (proshloe i eto - c i d)-->
+      <br>
+      <label>color</label>
+      <input type="color" name="color">
+      <br>
+      <label>date</label>
+      <input type="date" name="date">
+      <br>
+      <input type="datetime-local">
+      <br>
+      <input type="email">
+      <br>
+      <input type="file">
+      <br>
+      <br>
+      <input type="hidden" name="hidden" value="22"> <!-- spratannoe pole -->
+      <br>
+      <br>
+      <input type="image">  <!-- pochti nikogda ne ispoljzuetca, skoree vsego eto kligabeljnaja kartinka kak knopka -->
+      <br>
+      <br>
+      <input type="month">
+      <br>
+      <input type="number">
+      <br>
+      <input type="password">
+      <br>
+      <br>
+      <label>range</label>
+      <input type="range">
+      <br>
+      <label>reset</label>
+      <input type="reset" value="Reset">
+      <br>
+      <input type="search" value="Search">
+      <input type="submit" value="Submit">
+      <br>
+      <input type="tel">
+      <input type="text">
+      <input type="time">
+      <input type="url">
+      <input type="week">
+    </form>
+  </body>
+</html>
