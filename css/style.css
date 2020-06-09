@@ -4,12 +4,60 @@ form {
 
 }
 
-[type="text"] {  /* posk po atributu */
+[type="text"] {  /* poisk po atributu */
   width: 269px;
   margin-left: 11px;
   margin-bottom: 46px;
   padding: 0;
 
   border: none;
-  border-bottom:  1px solid grey;
+  border-bottom:  10px solid grey;
+  outline: 5px solid green;
+
+  padding: 5px;
+  background: yellow;
+
 }
+/*
+[type="email"] {
+  width: 269px;
+  margin-left: 11px;
+  margin-bottom: 46px;
+  padding: 0;
+  border: none;
+  border-bottom:  1px solid grey; /*udet blize k elementu chem outline */
+/*
+  outline: none;  /* ubiraet verh ramku */
+
+
+
+
+.line {
+  position: relative;
+  width: 269px;
+  height: 16px;
+  margin-bottom: 15px;
+
+  background: purple;
+}
+
+[type="email"]{
+  position: absolute;
+  background: white;
+  top: 0;
+  width: 269px;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+[type="email"]:focus {
+border: none;
+}
+
+/*
+.line:focus {
+ border-bottom-color: purple;
+}  */
