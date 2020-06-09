@@ -1,4 +1,15 @@
 form {
   margin: 0 auto;
   width: 300px;
+
+}
+
+[type="text"] {  /* posk po atributu */
+  width: 269px;
+  margin-left: 11px;
+  margin-bottom: 46px;
+  padding: 0;
+
+  border: none;
+  border-bottom:  1px solid grey;
 }
